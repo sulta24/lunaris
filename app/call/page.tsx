@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -18,7 +18,7 @@ interface ChatMessage {
   isVoice?: boolean
 }
 
-export default function CallPage() {
+function CallPageContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const videoRef = useRef<HTMLVideoElement>(null)
@@ -702,5 +702,22 @@ export default function CallPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+function LoadingFallback() {
+  return (
+    <div className="min-h-screen bg-black flex items-center justify-center">
+      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-white mx-auto mb-4"></div>
+      <p className="text-white text-lg">Загрузка...</p>
+    </div>
+  )
+}
+
+export default function CallPage() {
+  return (
+    <Suspense fallback={<LoadingFallback />}>
+      <CallPageContent />
+    </Suspense>
   )
 }
