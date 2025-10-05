@@ -44,7 +44,7 @@ export function Features() {
         <Card className="hidden md:block liquid-glass border border-white/10 bg-white/5 backdrop-blur-xl">
           <CardHeader>
             <p className="text-[11px] tracking-widest text-neutral-400">ADAPTABILITY</p>
-            <CardTitle className="mt-1 text-xl text-white">Make the experience truly intuitive</CardTitle>
+            <CardTitle className="mt-1 text-xl text-white">У нас не просто лекция, а живой разговор с гением!</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-2 gap-4">
@@ -77,7 +77,7 @@ export function Features() {
           <CardHeader>
             <p className="text-[11px] tracking-widest text-neutral-400">CLIENT LOVE</p>
             <CardTitle className="mt-1 text-xl text-white">
-              Their work didn't just look good, it moved the needle — our audience felt the difference instantly.
+              Lunaris AI – платформа, где можно учиться у цифровых двойников космических легенд
             </CardTitle>
           </CardHeader>
           <CardContent>

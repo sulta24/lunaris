@@ -1,6 +1,5 @@
 import { SiteHeader } from "@/components/site-header"
 import { Hero } from "@/components/hero"
-import { Features } from "@/components/features"
 import { AppverseFooter } from "@/components/appverse-footer"
 import Script from "next/script"
 
@@ -35,7 +34,6 @@ export default function Page() {
       <main className="min-h-[100dvh] text-white">
         <SiteHeader />
         <Hero />
-        <Features />
         <AppverseFooter />
       </main>
 
