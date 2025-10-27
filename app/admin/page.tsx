@@ -122,7 +122,7 @@ const defaultContent: ContentData = {
     buttonText: "начать",
   },
   features: {
-    title: "What makes us the best studio for you.",
+    title: "Здесь чет напишем еще",
     subtitle: "Discover our unique approach to 3D animation",
   },
   footer: {
