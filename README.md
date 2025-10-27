@@ -1,5 +1,7 @@
 # 🚀 Lunaris AI - NASA Space Apps 2024
 
+![Lunaris AI Demo](skitbitagency2/public/demo.png)
+
 > **Built in 36 hours for NASA Space Apps 2024 Challenge**
 
 An AI-powered platform for space biology research featuring conversational AI with digital twins of space legends and comprehensive space biology knowledge base.
