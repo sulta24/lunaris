@@ -1,6 +1,6 @@
 # 🚀 Lunaris AI - NASA Space Apps 2024
 
-![Lunaris AI Demo](skitbitagency2/public/demo.png)
+![Lunaris AI Demo](./public/demo.png)
 
 > **Built in 36 hours for NASA Space Apps 2024 Challenge**
 
