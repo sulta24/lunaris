@@ -82,4 +82,3 @@ npm run dev
 
 Visit `http://localhost:3000` to access the application.
 
-## 📁 Project Structure
